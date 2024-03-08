@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Thu Mar 07 16:50:44 IST 2024
+org.eclipse.jst.j2ee.server\:pin-service=WEB-INF/lib/pin-service-1.0-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:pin-data=WEB-INF/lib/pin-data-1.0-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\wellcome\\.m2\\repository\\org\\springframework\\spring-web\\3.2.9.RELEASE\\spring-web-3.2.9.RELEASE.jar=WEB-INF/lib/spring-web-3.2.9.RELEASE.jar

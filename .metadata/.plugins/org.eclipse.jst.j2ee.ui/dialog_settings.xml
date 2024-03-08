@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="J2EE_EXPORT_OVERWRITE" value="false"/>
+	<item key="J2EE_EXPORT_SOURCE" value="false"/>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="E:\tomcat\apache-tomcat-8.5.56 -Pin\apache-tomcat-8.5.56 -Pin\webapps\pin-webservice.war"/>
+		<item value="E:\tomcat\apache-tomcat-8.5.56 -Pin\apache-tomcat-8.5.56 -Pin\webapps\pin-system.war"/>
+	</list>
+</section>

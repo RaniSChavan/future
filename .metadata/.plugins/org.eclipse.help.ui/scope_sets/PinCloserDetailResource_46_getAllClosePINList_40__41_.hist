@@ -1,0 +1,6 @@
+#Wed Dec 27 15:00:36 IST 2023
+expression=PinCloserDetailResource.getAllClosePINList()
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.sdk.Eclipse.master=true
+__DEFAULT__=false

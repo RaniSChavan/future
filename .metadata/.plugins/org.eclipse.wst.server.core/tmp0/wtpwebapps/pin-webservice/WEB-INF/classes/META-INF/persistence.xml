@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Ambertag_Application" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.ambertag.data.model.ChangeRequestHeader</class>
+		<class>com.ambertag.data.model.Configuration</class>
+		<class>com.ambertag.data.model.Customer</class>
+		<class>com.ambertag.data.model.CustomerLocation</class>
+		<class>com.ambertag.data.model.Designation</class>
+		<class>com.ambertag.data.model.HumenResourceAllocation</class>
+		<class>com.ambertag.data.model.PinComment</class>
+		<class>com.ambertag.data.model.PinDetail</class>
+		<class>com.ambertag.data.model.PinHeader</class>
+		<class>com.ambertag.data.model.Resource</class>
+		<class>com.ambertag.data.model.Role</class>
+		<class>com.ambertag.data.model.User</class>
+		<class>com.ambertag.data.model.UserRole</class>
+		<class>com.ambertag.data.model.Source</class>
+		<class>com.ambertag.data.model.PinIdGenTable</class>
+		<class>com.ambertag.data.model.Vendor</class>
+		<class>com.ambertag.data.model.PinDocumentStore</class>
+		<class>com.ambertag.data.model.PinCloserDetail</class>
+		<class>com.ambertag.data.model.PinHoldDetails</class>
+		<class>com.ambertag.data.model.FailedEmail</class>
+		
+		<properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pin"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+        </properties>
+	</persistence-unit>
+</persistence>

@@ -1,0 +1,10 @@
+127.0.0.1 - - [02/Jan/2024:10:07:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:44 +0530] "GET /pin-webservice/ HTTP/1.1" 401 15
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:44 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:54 +0530] "GET /pin-system/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:54 +0530] "GET /pin-system/adminconsole/;jsessionid=CDECB0944E6C2A32B312F05B86EA4BF1 HTTP/1.1" 200 5501
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:54 +0530] "GET /pin-system/images/app_logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:54 +0530] "GET /pin-system/images/login.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:54 +0530] "GET /pin-system/css/login.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:54 +0530] "GET /pin-system/images/modal-loader.gif HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Jan/2024:10:07:54 +0530] "GET /js/login.js HTTP/1.1" 404 766

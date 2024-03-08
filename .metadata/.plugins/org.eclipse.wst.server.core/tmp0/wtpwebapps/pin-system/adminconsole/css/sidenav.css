@@ -1,0 +1,106 @@
+.sidenav {
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	z-index: 1;
+	top: 70px;
+	left: 8px;
+	background: #E9EBEE;
+	overflow-x: hidden;
+	padding: 8px 0;
+	border-right: 1px solid #4C4F57;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	display: block;
+	width: 100%;
+	background-color: none;
+	text-decoration: none;
+	font-size: 15px;
+	color: #4C4F57;
+	display: block;
+	border-bottom: 1px solid #4C4F57;
+	height: 40px;
+	line-height: 40px;
+}
+
+.sidenav a:hover {
+	background-color: #F5F6F7;
+}
+
+.sidenav img {
+	display: block;
+	margin-top: 2px;
+	margin-right: 2px;
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+
+/* @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    } */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.sidenav {
+		width: 60px;
+	}
+	.sidenav a i {
+		display: none;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.sidenav {
+		width: 60px;
+	}
+	.sidenav a i {
+		display: none;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { /* .sidenav {
+    width:80px
+  } */
+	.sidenav {
+		width: 150px;
+	}
+	.sidenav a i {
+		display: block;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { /* .sidenav {
+    width:100px
+  }
+  .sidenav a{
+    font-size:9px;
+  }
+  .sidenav img{
+    width:21px;
+  } */
+	.sidenav {
+		width: 150px;
+	}
+	.sidenav a i {
+		display: block;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { /* .sidenav {
+    width:150px
+  } */
+	.sidenav {
+		width: 150px;
+	}
+	.sidenav a i {
+		display: block;
+	}
+}

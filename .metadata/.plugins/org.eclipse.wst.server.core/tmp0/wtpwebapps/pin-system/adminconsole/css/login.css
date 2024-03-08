@@ -1,0 +1,377 @@
+.fito-login-container {
+    /* background-image: url('../images/Login-background.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: #FCFCFC;
+    height: 100vh;
+    font-family: inherit;
+}
+
+/* @media(min-width:1200px){
+    .fito-login-container{
+        background-size: 100% 100%;
+    }
+} */
+
+.fitto-login-background {
+    background-image: url("../images/login_background.jpg");
+    background-size: 100% 750px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: 55%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+}
+
+@media (max-width: 1200px) {
+    .fitto-login-background {
+        margin-left: 50%;
+        width: 50%;
+        
+    }
+}
+
+/* @media (max-width: 1272px) {
+    .fitto-login-background {
+        background-size: 564px 750px;
+    }
+}
+
+@media (max-width: 1038px) {
+    .fitto-login-background {
+        background-size: 510px 750px;
+    }
+}
+
+@media (max-width: 930px) {
+    .fitto-login-background {
+        background-size: 456px 750px;
+    }
+}
+
+@media (max-width: 840px) {
+    .fitto-login-background {
+        background-size: 412px 750px;
+    }
+} */
+
+@media (max-width: 750px) {
+    .fitto-login-background {
+        margin-left: auto;
+        width: 100%;
+        background-size: 100% 780px;
+    }
+}
+
+.fito-login-card{
+    background-color: white;
+    margin: auto;
+    /* width: 45%; */
+    font-family: inherit;
+}
+
+.fitto-login-image {
+    /* background-image: url('/images/sport-team.svg'); */
+    position: relative;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 25px;
+    width: 25px;
+    font-family: inherit;
+}
+@media(min-width:300px) {
+    .fito-login-card{
+        margin: 2px 0px auto 5%;
+        width: 330px;
+        font-family: inherit;
+    }
+}
+
+@media(min-width:500px) {
+    .fito-login-card{
+        margin: 2px 0px auto 5%;
+        width: 400px;
+        font-family: inherit;
+    }
+}
+
+@media(min-width:600px){
+    .fito-login-card{
+        margin: 10px 0px auto 5%;
+        width: 400px;
+        font-family: inherit;
+    }
+}
+
+@media(min-width:950px){
+    .fito-login-card{
+        margin: 10px 0px auto 5%;
+        width: 400px;
+        font-family: inherit;
+    }
+}
+
+@media (min-width: 1200px){
+    .fito-login-card{
+        margin: 10px 0px auto 5%;
+        width: 400px;
+        font-family: inherit;
+    }
+}
+
+.fito-login-header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-family: inherit;
+}
+
+.fito-login-header p{
+    font: Bold 18px Helvitica;
+    color: #153C4B;
+    margin: 6px 10px;
+    font-family: inherit;
+}
+
+@media(min-width:420px){
+    .fito-login-header p{
+        font: Bold 34px;
+        font-family: inherit;
+    }
+}
+
+@media(min-width:620px){
+    .fito-login-header p{
+        font: Bold 36px;
+        font-family: inherit;
+    }
+}
+
+.fito-arrow::after {
+    content: "\f105";
+    font-weight: 900;
+    font-size: 10px;
+    margin: 0px 2px;
+    font-family: inherit;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+
+.fito-login-header h3{
+    color: #153C4B;
+    font: Bold 16px Lato;
+    margin: auto;
+}
+@media(min-width:420px){
+    .fito-login-header h3{
+        font: Bold 24px Lato;
+    }
+}
+
+@media(min-width:620px){
+    .fito-login-header h3{
+        font: Bold 24px Lato;
+    }
+}
+.fito-login-form{
+    padding:15px;
+    border: 0.2px solid rgb(216, 211, 211);
+}
+@media(min-width:380px){
+    .fito-login-form{
+        padding: 30px;
+    } 
+}
+@media(min-width:460px){
+    .fito-login-form{
+        padding: 10px 10px;
+    } 
+}
+.fito-inputs{
+    display: grid;
+    color: #153C4B;
+}
+.fito-inputs label{
+    color: #153C4B;
+    font-size: 14px;
+    font-weight: 600;
+}
+.fito-input-text {
+    border: none;
+    border-bottom: 2px solid #EAEAEA;
+    font-size: 14.5px;
+    margin-bottom: 20px;
+    outline: none;
+    width: 95%;
+}
+@media(min-width:360px){
+    .fito-input-text{
+        width: 100%;
+    }
+}
+.fito-input-passowrd {
+    border: none !important;
+    border-bottom: 2px solid #EAEAEA !important;
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    outline: none !important;
+    width: 95%;
+    margin-left: 0px !important;
+}
+
+@media(min-width:360px){
+    .fito-input-passowrd {
+        width: 100%;
+    }
+}
+
+.fito-preferences{
+    font: 8px inherit;
+    cursor: pointer;
+    color: #153C4B;
+}
+
+.fito-preferences a{
+    float: right;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+@media (max-width: 500px) {
+
+    .fitto-preferences {
+        margin-bottom: 5px;
+    }
+
+    .fito-preferences a{
+        float: right;
+        margin-right: 5px;
+    }
+
+    .fito-preferences label{
+        /* float: left; */
+        margin-left: 5px;
+    }
+
+    .fito-preferences input{
+        float: left;
+    }
+}
+
+.fito-buttons{
+    display: flex;
+    margin-top: 6px;
+}
+
+.fito-login-button{
+    background-color: #4267B3;
+    border: 1px solid #4267B3;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    width: 45%;
+    transition: all .5s ease;
+    transform: scale(1);
+}
+
+.fito-login-button:hover{
+    transform: scale(1.1) perspective(1px)
+}
+
+@media (max-width: 500px) {
+
+    .fito-buttons {
+        margin: 20px;
+        display: flex;
+        margin-right: 0;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .fito-login-button {
+        width: 170px;
+    }
+}
+
+.fito-guest-button{
+    background-color: #4267B3;
+    border: 1px solid #4267B3;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 35px;
+    width: 100%;
+    transition: all .5s ease;
+    transform: scale(1);
+    font-size: 18px;
+}
+
+.fito-guest-button:hover{
+    transform: scale(1.05) perspective(0.2px)
+}
+
+.fito-reset-button{
+    background-color: white;
+    border: 1px solid #153C4B;
+    border-radius: 2px;
+    color: #153C4B;
+    cursor: pointer;
+    height: 35px;
+    margin-left: auto;
+    width: 45%;
+    transition: all .5s ease;
+    transform: scale(1);
+}
+
+.fito-reset-button:hover{
+    transform: scale(1.1) perspective(1px)
+}
+
+@media (max-width: 500px) {
+    .fito-reset-button {
+        width: 170px;
+    }
+}
+
+.fitto-guest-info{
+    font: Bold 12px;
+    color: #153C4B;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fitto-horizontal-or {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #9599A2; 
+    line-height: 0.1em;
+    margin: 15px 0 20px; 
+ } 
+ 
+ .fitto-horizontal-or span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+@media(min-width:450px){
+    .fitto-guest-info{
+        font: Bold 14px Lato;
+    }
+}
+
+/* @media screen and (min-width:499){
+    .fito-login-card{
+        width:100%;
+    }
+    
+} */
